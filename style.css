@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 350px;
+    background-color: bisque;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 1);
+}
+
+.info {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.info > h1 {
+    margin-bottom: 10px;
+}
+
+.clockcontainer {
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 270px;
+    width: 270px;
+    background-color: crimson;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 1);
+}
+
+.hand {
+    position: absolute;
+    background-color: #fff;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 5px;
+    height: 25%;
+    top: 25.4%;
+    left: 49%;
+}
+
+#minute {
+    width: 4px;
+    height: 30%;
+    top: 20.5%;
+    left: 49.2%;
+}
+
+#second {
+    width: 2px;
+    height: 35%;
+    top: 16%;
+    left: 49.4%;
+}
